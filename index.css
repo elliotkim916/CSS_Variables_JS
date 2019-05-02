@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.controls {
+  text-align: center;
+}
+
+img {
+  width: 500px;
+}
