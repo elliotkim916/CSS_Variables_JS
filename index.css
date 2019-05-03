@@ -1,7 +1,7 @@
 /* variables */
 :root {
-  --base: #ffc600;
-  --spacing: 50px;
+  --base-color: #ffc600;
+  --spacing: 10px;
   --blur: 0px;
 }
 
@@ -10,19 +10,30 @@ body {
   margin: 0;
   box-sizing: border-box;
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+label {
+  font-weight: bolder;
+}
+input {
+  margin-bottom: 15px;
+}
+
+.header-text {
+  color: var(--base-color);
 }
 
 .controls {
   width: 250px;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
-  border: 1px solid red;
+  text-align: center;
 }
 
 img {
-  width: 500px;
+  width: 50%;
   padding: var(--spacing);
-  background-color: var(--base);
+  background-color: var(--base-color);
   filter: blur(var(--blur));
 }
