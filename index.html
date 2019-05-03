@@ -4,24 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Variables and JS</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="index.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
-    <h1>Update CSS Variables with <span class="h1">JavaScript</span></h1>
+    <h1>Update CSS Variables with <span class="header-text">JavaScript</span></h1>
 
-    <div class="controls">
-      <label for="spacing">Spacing:</label>
-      <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px"><br/>
+    <div class="container">
+      <div class="controls">
+        <label for="spacing">SPACING :</label>
+        <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px"><br/>
 
-      <label for="blur">Blur:</label>
-      <input type="range" name="blur" min="0" max="200" value="10" data-sizing="px"><br/>
+        <label for="blur">BLUR :</label>
+        <input type="range" name="blur" min="0" max="10" value="0" data-sizing="px"><br/>
 
-      <label for="base-color">Base Color:</label>
-      <input type="color" name="base-color" value="#ffc600">
+        <label for="base-color">BASE COLOR :</label>
+        <input type="color" name="base-color" value="#ffc600">
+      </div>
+      <img src="images/image01.jpg" alt="main image">
     </div>
 
-    <img src="images/image01.jpg" alt="main image">
     <script src="index.js"></script>
   </body>
 </html>
